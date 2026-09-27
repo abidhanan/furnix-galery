@@ -1,0 +1,41 @@
+body {
+    background-color: #F5F5F0;
+    color: #1C1917;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for category filter to make it visually clear */
+.category-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+.category-scrollbar::-webkit-scrollbar {
+    height: 8px;
+}
+.category-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.02);
+    border-radius: 8px;
+}
+.category-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 8px;
+}
+.category-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Hide scrollbar for main body to keep it clean, optional */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #F5F5F0; 
+}
+::-webkit-scrollbar-thumb {
+    background: #a8a29e; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #78716c; 
+}

@@ -1,0 +1,18 @@
+{
+    "name": "OD FURNIX GALERY",
+    "short_name": "OD Furnix",
+    "description": "Katalog furnitur besi custom untuk cafe, restoran, dan hunian dari Jepara.",
+    "lang": "id-ID",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f7f7f4",
+    "theme_color": "#1c1917",
+    "icons": [
+        {
+            "src": "/assets/brand/od-furnix-favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
